@@ -1,4 +1,4 @@
-package com.htpp;
+package com.htpp.httpreq;
 
 import javax.net.ssl.*;
 import java.io.*;

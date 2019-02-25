@@ -2,20 +2,17 @@ package com.htpp.method;
 
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
-import com.alipay.api.AlipayObject;
 import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.request.AlipayTradePagePayRequest;
 import com.alipay.api.request.AlipayTradeQueryRequest;
 import com.alipay.api.request.AlipayTradeRefundRequest;
 import com.alipay.api.response.AlipayTradeQueryResponse;
 import com.alipay.api.response.AlipayTradeRefundResponse;
-import com.htpp.HttpsRequest;
+import com.htpp.httpreq.HttpsRequest;
 import com.htpp.bean.ALIPayBean;
 import com.htpp.bean.AliQueryBean;
-import com.htpp.bean.AliQueryResult;
 import com.htpp.bean.AliRefundBean;
 import com.htpp.config.Config;
-import com.sun.deploy.net.HttpRequest;
 
 public class ALIPay {
 
